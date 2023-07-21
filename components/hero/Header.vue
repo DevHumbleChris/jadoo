@@ -3,9 +3,9 @@ import Logo from "../global/Logo.vue";
 </script>
 
 <template>
-  <div class="px-16 py-6 flex items-center w-full justify-between font-poppins">
+  <div class="p-5 sm:px-16 sm:py-6 flex items-center w-full justify-between font-poppins">
     <Logo />
-    <div class="flex items-center space-x-20">
+    <div class="hidden lg:flex items-center space-x-20">
       <ul class="flex items-center space-x-12">
         <li><a href="">Destinations</a></li>
         <li><a href="">Hotels</a></li>
@@ -23,5 +23,8 @@ import Logo from "../global/Logo.vue";
         </li>
       </ul>
     </div>
+    <button class="lg:hidden block">
+        <Icon name="icon-park-outline:hamburger-button" class="w-6 h-auto" />
+    </button>
   </div>
 </template>

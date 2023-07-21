@@ -5,20 +5,18 @@ import Header from "./Header.vue";
 <template>
   <div class="relative">
     <Header />
-    <div class="grid grid-cols-2 items-center p-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20">
       <div class="space-y-3">
-        <p class="uppercase font-poppins text-[#DF6951] font-bold">
+        <p class="uppercase font-poppins text-sm text-[#DF6951] font-bold">
           Best Destinations around the world
         </p>
-        <div class="font-volkhov font-bold text-8xl text-[#181E4B]">
+        <div class="font-volkhov font-bold text-5xl md:text-6xl lg:text-8xl text-[#181E4B]">
           <div class="flex space-x-3">
             <div>Travel,</div>
             <div class="relative">
               enjoy
               <svg
-                class="absolute bottom-0 -left-4"
-                width="385"
-                height="12"
+                class="absolute bottom-0 -left-4  w-44 sm:w-80 "
                 viewBox="0 0 385 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
