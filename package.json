@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxtjs/google-fonts": "^3.0.1",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@types/node": "^18.16.19",
     "nuxt": "^3.6.3",
