@@ -3,7 +3,7 @@ import Logo from "../global/Logo.vue";
 </script>
 
 <template>
-  <div class="p-4 flex items-center w-full justify-between font-poppins">
+  <div class="px-16 py-6 flex items-center w-full justify-between font-poppins">
     <Logo />
     <div class="flex items-center space-x-20">
       <ul class="flex items-center space-x-12">
@@ -16,7 +16,7 @@ import Logo from "../global/Logo.vue";
         <li><a href="">Login</a></li>
         <li><a href="">Signup</a></li>
         <li>
-          <select name="country">
+          <select name="country" class="bg-transparent">
             <option value="EN" selected>EN</option>
             <option value="FRA">FRA</option>
           </select>
