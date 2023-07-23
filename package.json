@@ -20,7 +20,8 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia/nuxt": "^0.4.11",
     "nuxt-headlessui": "^1.1.4",
-    "pinia": "^2.1.4"
+    "pinia": "^2.1.4",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "overrides": {
     "vue": "latest"

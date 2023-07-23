@@ -17,7 +17,10 @@ export default defineNuxtConfig({
           'poppins': ['Poppins', 'sans-serif'],
           'volkhov': ['Volkhov', 'serif']
         }
-      }
+      },
+      plugins: [
+        require('tailwind-scrollbar-hide')
+      ]
     }
   },
   pinia: {
