@@ -7,15 +7,33 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
-    "nuxt-headlessui"
+    "nuxt-headlessui",
   ],
   tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
+    cssPath: "~/assets/css/tailwind.css",
+    config: {
+      theme: {
+        fontFamily: {
+          'poppins': ['Poppins', 'sans-serif'],
+          'volkhov': ['Volkhov', 'serif']
+        }
+      }
+    }
   },
   pinia: {
     autoImports: [
       // automatically imports `defineStore`
-      'defineStore',
+      "defineStore",
     ],
   },
-})
+  googleFonts: {
+    families: {
+      'Poppins+Sans': [400],
+      'Volkhov+Serif': [400, 700]
+    },
+    download: true,
+    base64: true,
+    stylePath: 'css/fonts.css'
+  },
+  buildModules: ["@nuxtjs/google-fonts"],
+});
