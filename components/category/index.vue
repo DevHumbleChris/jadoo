@@ -10,10 +10,10 @@ import PlusPlusSVG from "~/components/global/svg/PlusPlusSVG.vue";
   <section class="p-6 sm:p-20">
     <div class="text-center space-y-3 relative">
       <p class="uppercase font-semibold text-gray-600">Category</p>
-      <h2 class="text-[#14183E] font-bold text-4xl sm:text-5xl">We Offer Best Services</h2>
+      <h2 class="text-[#14183E] font-bold text-4xl sm:text-5xl font-volkhov">We Offer Best Services</h2>
       <PlusPlusSVG />
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-8 sm:p-0 gap-16 items-center my-4 sm:my-12 text-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-8 sm:p-0 gap-8 sm:gap-16 items-center my-4 sm:my-12 text-center">
       <div class="relative group">
         <div class="space-y-3 cursor-pointer mt-2 group-hover:border  p-12 sm:px-6 sm:py-12 group-hover:rounded-3xl group-hover:z-20 group-hover:bg-white group-hover:drop-shadow-2xl">
           <SatelightSVG />
