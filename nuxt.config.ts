@@ -26,14 +26,4 @@ export default defineNuxtConfig({
       "defineStore",
     ],
   },
-  googleFonts: {
-    families: {
-      'Poppins+Sans': [400],
-      'Volkhov+Serif': [400, 700]
-    },
-    download: true,
-    base64: true,
-    stylePath: 'css/fonts.css'
-  },
-  buildModules: ["@nuxtjs/google-fonts"],
 });

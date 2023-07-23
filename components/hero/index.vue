@@ -3,20 +3,22 @@ import Header from "./Header.vue";
 </script>
 
 <template>
-  <div class="relative">
+  <div class="relative max-w-7xl">
     <Header />
-    <div class="grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20">
+    <section class="w-full grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20 my-4 sm:my-12">
       <div class="space-y-3">
         <p class="uppercase font-poppins text-sm text-[#DF6951] font-bold">
           Best Destinations around the world
         </p>
-        <div class="font-volkhov font-bold text-5xl md:text-6xl lg:text-8xl text-[#181E4B]">
+        <div
+          class="font-volkhov font-bold text-5xl md:text-6xl lg:text-8xl text-[#181E4B]"
+        >
           <div class="flex space-x-3">
             <div>Travel,</div>
             <div class="relative">
               enjoy
               <svg
-                class="absolute bottom-0 -left-4  w-44 sm:w-80 "
+                class="absolute bottom-0 -left-4 w-44 sm:w-80"
                 viewBox="0 0 385 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,13 +51,14 @@ import Header from "./Header.vue";
           the.
         </p>
         <div class="flex items-center space-x-3">
-          <button
+          <button type="button" aria-label="Find out more"
             class="block bg-[#F1A501] text-white p-3 text-sm font-poppins rounded-md"
           >
             Find out more
           </button>
-          <button class="font-poppins flex mt-5">
-            <svg class="w-20"
+          <button type="button" aria-label="Play demo" class="font-poppins flex mt-5">
+            <svg
+              class="w-20"
               viewBox="0 0 112 112"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +112,12 @@ import Header from "./Header.vue";
         </div>
       </div>
       <div>
-        <nuxt-picture src="/images/travel-girl.png" alt="travel-girl" />
+        <nuxt-picture
+          src="/images/travel-girl.png"
+          width="765"
+          height="764"
+          alt="travel-girl"
+        />
         <svg
           class="absolute top-0 right-0 w-[35rem] -z-10"
           viewBox="0 0 704 724"
@@ -122,6 +130,6 @@ import Header from "./Header.vue";
           />
         </svg>
       </div>
-    </div>
+    </section>
   </div>
 </template>
