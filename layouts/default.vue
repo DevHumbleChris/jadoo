@@ -1,6 +1,4 @@
 <script setup>
-const route = useRoute()
-
 useHead({
   meta: [
     { property: 'og:title', content: `Jadoo` },
@@ -11,6 +9,12 @@ useHead({
     { name: 'twitter:description', content: 'Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
     { name: 'twitter:site', content: 'https://nuxt-gmail-clone.vercel.app' }
   ],
-  title: `${route.meta.title}`,
+  title: `Jadoo`,
 })
 </script>
+
+<template>
+  <main>
+    <slot/>
+  </main>
+</template>
