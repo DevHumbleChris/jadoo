@@ -3,7 +3,7 @@ import Header from "./Header.vue";
 </script>
 
 <template>
-  <div class="relative max-w-7xl">
+  <div class="relative">
     <Header />
     <section class="w-full grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20 my-4 sm:my-6">
       <div class="space-y-3">

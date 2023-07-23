@@ -1,4 +1,5 @@
 <script setup>
+import Footer from '~/components/global/Footer.vue';
 useHead({
   meta: [
     { property: 'og:title', content: `Jadoo` },
@@ -14,7 +15,8 @@ useHead({
 </script>
 
 <template>
-  <main>
+  <main class="max-w-7xl">
     <slot/>
+    <Footer />
   </main>
 </template>
