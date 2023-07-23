@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Jadoo
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.
 
 ## Setup
 
@@ -32,32 +32,12 @@ pnpm run dev
 yarn dev
 ```
 
-## Production
+## Figma Design
 
-Build the application for production:
+Here is the link to the figma design for the Jadoo.
 
-```bash
-# npm
-npm run build
+[Jadoo Figma File](https://www.figma.com/file/ueZJdVwFai18bVSDnkhsN1/Travel-Website-Landing-Page-(Community)-(Copy)?type=design&node-id=0%3A1&mode=design&t=nFhek10pRK80Fsv0-1)
 
-# pnpm
-pnpm run build
+## Jadoo Figma Design Image
 
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+![Jadoo ](/jadoo.jpg "Jadoo ")
