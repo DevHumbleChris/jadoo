@@ -34,8 +34,8 @@ const mobileMenuOpen = ref(false);
         </li>
       </ul>
     </div>
-    <button class="lg:hidden block" @click="mobileMenuOpen = true">
-      <Icon name="icon-park-outline:hamburger-button" class="w-6 h-auto" aria-label="hamburger-button" />
+    <button class="lg:hidden block" @click="mobileMenuOpen = true" aria-label="hamburger-button">
+      <Icon name="icon-park-outline:hamburger-button" class="w-6 h-auto" />
     </button>
 
     <Dialog
@@ -57,6 +57,7 @@ const mobileMenuOpen = ref(false);
             type="button"
             class="-m-2.5 rounded-md p-2.5 text-gray-700"
             @click="mobileMenuOpen = false"
+            aria-label="close"
           >
             <span class="sr-only">Close menu</span>
             <XMarkIcon class="h-6 w-6" aria-hidden="true" />
