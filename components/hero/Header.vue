@@ -7,14 +7,14 @@ import Logo from "../global/Logo.vue";
     <Logo />
     <div class="hidden lg:flex items-center space-x-20">
       <ul class="flex items-center space-x-12">
-        <li><a href="">Destinations</a></li>
-        <li><a href="">Hotels</a></li>
-        <li><a href="">Flights</a></li>
-        <li><a href="">Bookings</a></li>
+        <li><NuxtLink to="#">Destinations</NuxtLink></li>
+        <li><NuxtLink to="#">Hotels</NuxtLink></li>
+        <li><NuxtLink to="#">Flights</NuxtLink></li>
+        <li><NuxtLink to="#">Bookings</NuxtLink></li>
       </ul>
       <ul class="flex items-center space-x-8">
-        <li><a href="">Login</a></li>
-        <li><a href="">Signup</a></li>
+        <li><NuxtLink to="#">Login</NuxtLink></li>
+        <li><NuxtLink to="#" class="border-2 rounded-lg px-3 py-2 border-gray-900">Signup</NuxtLink></li>
         <li>
           <select name="country" class="bg-transparent">
             <option value="EN" selected>EN</option>

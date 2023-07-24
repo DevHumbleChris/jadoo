@@ -24,7 +24,7 @@
                 </div>
               </div>
             </div>
-            <div class="absolute -right-56 sm:-right-12 top-36 sm:top-24 -z-10 max-w-lg">
+            <div class="absolute -right-3 sm:-right-12 top-[4.5rem] sm:top-24 -z-10 max-w-[19.3rem]">
                 <div class="relative border rounded-xl">
                   <nuxt-img src="/images/person.jpg" alt="person" class="absolute top-0 -left-4 w-12 h-12 rounded-full" />
                   <div class="space-y-7 p-10">
