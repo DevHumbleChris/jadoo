@@ -1,6 +1,6 @@
 <template>
-    <NuxtLink to="/">
-        <svg
+    <NuxtLink to="/" aria-label="Jadoo">
+        <svg 
           viewBox="0 0 116 35"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

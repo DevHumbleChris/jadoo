@@ -35,7 +35,7 @@ const mobileMenuOpen = ref(false);
       </ul>
     </div>
     <button class="lg:hidden block" @click="mobileMenuOpen = true">
-      <Icon name="icon-park-outline:hamburger-button" class="w-6 h-auto" />
+      <Icon name="icon-park-outline:hamburger-button" class="w-6 h-auto" aria-label="hamburger-button" />
     </button>
 
     <Dialog
