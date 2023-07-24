@@ -1,6 +1,9 @@
 <script setup>
 import Footer from '~/components/global/Footer.vue';
 useHead({
+  htmlAttrs: {
+    lang: 'en',
+  },
   meta: [
     { property: 'og:title', content: `Jadoo` },
     { name: 'description', content: 'Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
