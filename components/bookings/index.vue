@@ -136,6 +136,7 @@
         class="-mt-16 sm:mt-0"
         width="314"
         height="457"
+        sizes="sm:100vw md:50vw lg:400px"
       />
     </div>
   </section>

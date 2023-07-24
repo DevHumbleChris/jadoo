@@ -18,7 +18,7 @@ useHead({
 </script>
 
 <template>
-  <main class="max-w-7xl">
+  <main class="max-w-8xl">
     <slot/>
     <Footer />
   </main>

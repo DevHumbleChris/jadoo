@@ -5,7 +5,7 @@ import Header from "./Header.vue";
 <template>
   <div class="relative">
     <Header />
-    <section class="w-full grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20 my-4 sm:my-6">
+    <section class="w-full grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20 my-2">
       <div class="space-y-3">
         <p class="uppercase font-poppins text-sm text-[#DF6951] font-bold">
           Best Destinations around the world
@@ -117,6 +117,7 @@ import Header from "./Header.vue";
           width="765"
           height="764"
           alt="travel-girl"
+          sizes="sm:100vw md:50vw lg:400px"
         />
         <svg
           class="absolute top-0 right-0 w-[35rem] -z-10"
