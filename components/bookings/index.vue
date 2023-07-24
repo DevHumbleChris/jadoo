@@ -2,7 +2,9 @@
 
 <template>
   <section class="p-6 sm:p-20 sm:-mt-32 font-poppins">
-    <div class="grid grid-cols-1 sm:grid-cols-2 items-center gap-20 md:gap-16 lg:gap-20">
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 items-center gap-20 md:gap-16 lg:gap-20"
+    >
       <div class="space-y-6">
         <p class="capitalize font-semibold text-gray-600">Easy and Fast</p>
         <h2 class="text-[#14183E] font-bold text-4xl sm:text-5xl font-volkhov">
@@ -128,7 +130,13 @@
           </div>
         </div>
       </div>
-      <nuxt-picture src="/images/bookings.jpg" alt="bookings" class="-mt-16 sm:mt-0" />
+      <nuxt-picture
+        src="/images/bookings.jpg"
+        alt="bookings"
+        class="-mt-16 sm:mt-0"
+        width="314"
+        height="457"
+      />
     </div>
   </section>
 </template>

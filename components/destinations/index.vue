@@ -20,6 +20,8 @@
           src="/images/rome.png"
           alt="rome"
           class="w-full h-80 object-cover rounded-t-3xl"
+          width="314"
+          height="457"
         />
         <div
           class="space-y-3 p-3 border-b border-r border-l rounded-x-3xl rounded-b-3xl bg-white shadow-xl"
@@ -51,6 +53,8 @@
           src="/images/london.jpg"
           alt="london"
           class="w-full h-80 object-cover rounded-t-3xl"
+          width="314"
+          height="457"
         />
         <div
           class="space-y-3 p-3 border-b border-r border-l rounded-x-3xl rounded-b-3xl bg-white shadow-xl"
@@ -82,6 +86,8 @@
           src="/images/europe.jpg"
           alt="europe"
           class="w-full h-80 object-cover rounded-t-3xl"
+          width="314"
+          height="457"
         />
         <div
           class="space-y-3 p-3 border-b border-r border-l rounded-x-3xl rounded-b-3xl bg-white shadow-xl"
