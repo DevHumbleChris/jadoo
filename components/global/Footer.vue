@@ -164,6 +164,6 @@
         </div>
       </div>
     </div>
-    <p class="text-center text-xs text-[#5E6282] mb-8 sm:mt-8">All rights reserved@jadoo.co</p>
+    <p class="text-center text-xs text-[#5E6282] mb-8 sm:mt-8">Made with 🥰🤗, <NuxtLink to="https://the-coding-montana.vercel.app" class="text-indigo-600">The Coding Montana</NuxtLink>    </p>
   </footer>
 </template>

@@ -2,8 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@pinia/nuxt",
-    "@pinia-plugin-persistedstate/nuxt",
     "nuxt-icon",
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
@@ -22,11 +20,5 @@ export default defineNuxtConfig({
         require('tailwind-scrollbar-hide')
       ]
     }
-  },
-  pinia: {
-    autoImports: [
-      // automatically imports `defineStore`
-      "defineStore",
-    ],
   },
 });
